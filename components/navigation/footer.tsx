@@ -10,7 +10,7 @@ const Footer = () => {
       className="relative h-[675px] bg-secwhite"
     >
       <div className="fixed bottom-0 h-[675px] w-full">
-        <Container className={`grid grid-cols-12 text-secblack py-8  uppercase ${GeistMono.className}`}>
+        <Container className={`grid grid-cols-12 text-secblack py-16  uppercase ${GeistMono.className}`}>
           <nav className="col-span-2 flex flex-col">
             <a href="#work">work</a>
             <a href="#experience">experience</a>

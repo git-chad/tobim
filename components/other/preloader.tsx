@@ -1,6 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { slideOut, tAnimation, obiAnimation, mAnimation } from "@/lib/preloader";
+import {
+  slideOut,
+  tobiA,
+  mA,
+} from "@/lib/preloader";
 
 const Preloader = () => {
   return (
@@ -10,34 +14,19 @@ const Preloader = () => {
       exit="exit"
       className="fixed top-0 left-0 z-[99] h-svh w-screen bg-secblack text-secwhite flex items-center justify-center"
     >
-      <div className="overflow-hidden flex items-center justify-center w-[600px]">
-        <motion.span
-          variants={tAnimation}
+      <div className="overflow-hidden relative flex items-center justify-center w-[600px] font-zarathustra text-heading">
+        <motion.p 
+          variants={tobiA}
           initial="initial"
           animate="animate"
           exit="exit"
-          className="text-heading font-zarathustra"
-        >
-          t
-        </motion.span>
-        <motion.span
-          variants={obiAnimation}
+        >tobi</motion.p>
+        <motion.p 
+          variants={mA}
           initial="initial"
           animate="animate"
           exit="exit"
-          className="text-heading font-zarathustra"
-        >
-          obi 
-        </motion.span>
-        <motion.span
-          variants={mAnimation}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-          className="text-heading font-zarathustra"
-        >
-          m.
-        </motion.span>
+          className="bg-secblack w-[3ch] translate-x-[-76%]">m.</motion.p>
       </div>
     </motion.div>
   );

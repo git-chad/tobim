@@ -18,9 +18,9 @@ export default function Home() {
 
   return (
     <main className={`bg-priwhite min-h-svh text-secblack`}>
-      {/* <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
-      </AnimatePresence> */}
+      </AnimatePresence>
       <Hero />
       <Work />
       <Experience />

@@ -19,9 +19,9 @@ const Footer = () => {
             <a href="#">back to top</a>
           </nav>
           <div className="col-span-2 flex flex-col">
-            <a>Linkedin</a>
-            <a>Github</a>
-            <a>Calendly</a>
+            <a target="_blank" href="https://www.linkedin.com/in/tobiasmoccagatta/">Linkedin</a>
+            <a target="_blank" href="https://github.com/git-chad">Github</a>
+            <a target="_blank" href="https://cal.com/tobimocc">call me</a>
           </div>
           <p className="col-span-3 col-start-10 text-end">All rights reserved © 2024</p>
           <p className="text-heading font-zarathustra col-start-1 col-span-9 lowercase mt-[160px]">boo!</p>

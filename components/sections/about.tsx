@@ -20,7 +20,7 @@ const About = () => {
             I dove into International Relations in 2016, fueled by youthful
             excitement and a pocketful of dreams about changing the world. But
             by the third year, the thrill was gone. The lectures felt like they
-            were on repeat, and I certainly knew I couldn't work in this field
+            were on repeat, and I certainly knew I couldn&apos;t work in this field
             until I was 75. So, I threw a curveball into my routine—music
             production. Suddenly, my days were split between theories of war
             diplomacy and miking up amps.
@@ -28,8 +28,8 @@ const About = () => {
           <p className="col-span-3 text-justify mt-[26px]">
             Then the world hit pause. The pandemic locked us all down, but it
             also cracked open a door. Stuck at my desk, I was itching for
-            something new, something real. That's when I found it—a course in
-            web development. It wasn't love at first sight, but something about
+            something new, something real. That&apos;s when I found it—a course in
+            web development. It wasn&apos;t love at first sight, but something about
             creating something out of text stuck. I thought, "Why not?" and let
             myself fall into it.
           </p>
@@ -37,12 +37,12 @@ const About = () => {
             break on through (to the other side)
           </h3>
           <p className="col-span-6 text-justify mt-[26px]">
-            Before I knew it, I was hooked. By 2022, web development wasn't just
-            a fling; it was a full-time affair. The beginner stuff was kid's
+            Before I knew it, I was hooked. By 2022, web development wasn&apos;t just
+            a fling; it was a full-time affair. The beginner stuff was kid&apos;s
             play, and I craved more—more tech, more tools, more everything. I
             taught myself, chasing the thrill of each new line of code and the
-            satisfaction of a sleek, functioning design. Let's face it, if
-            something looks like shit, no one's going to give it a second
+            satisfaction of a sleek, functioning design. Let&apos;s face it, if
+            something looks like shit, no one&apos;s going to give it a second
             glance, no matter how brilliant it might be under the hood. I
             decided to make stuff that not only worked like a dream but looked
             damn good doing it.
@@ -53,17 +53,17 @@ const About = () => {
                 ramble on
               </h3>
               <p className="text-justify mt-[26px]">
-                When I'm not wrestling with code, I'm probably gaming, jamming
+                When I&apos;m not wrestling with code, I&apos;m probably gaming, jamming
                 on my guitar, or mixing tracks—anything where I can lose myself
                 in the flow. <br />
                 <br /> I love days with my dogs, nights with a nice cold beer,
                 stepping on the gas (La Perla Negra), and the occasional scare
-                from a horror movie when I'm feeling brave (pretty much always).{" "}
+                from a horror movie when I&apos;m feeling brave (pretty much always).{" "}
                 <br />
-                <br /> I've got a solid crew: family, friends, and my
-                girlfriend. They're the real reason I kept chasing a meaningful
+                <br /> I&apos;ve got a solid crew: family, friends, and my
+                girlfriend. They&apos;re the real reason I kept chasing a meaningful
                 path, the ones who keep me grounded and push me to keep at this
-                wild ride. Without them, I'm just another guy staring at a
+                wild ride. Without them, I&apos;m just another guy staring at a
                 screen.
               </p>
             </div>
@@ -77,7 +77,7 @@ const About = () => {
           </div>
         </aside>
         <div className="col-span-5 col-start-8 rounded">
-          <Image alt="toti's selfie" src={toti} />
+          <Image alt="toti&apos;s selfie" src={toti} />
         </div>
       </Container>
     </section>

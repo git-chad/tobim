@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
-import { ViewTransitions } from "next-view-transitions";
 import "./globals.css";
 import Navbar from "@/components/navigation/navbar";
+import Footer from "@/components/navigation/footer";
+import { ReactLenis } from "@/lib/lenis";
 
 export const metadata: Metadata = {
   title: "tobi moccagatta",
@@ -15,13 +16,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ViewTransitions>
+    <ReactLenis
+      root
+      options={{
+        lerp: 0.1,
+        smoothWheel: true,
+      }}
+    >
       <html lang="en">
         <body className={GeistSans.className}>
-          <Navbar/>
+          <Navbar />
           {children}
-          </body>
+          <Footer />
+        </body>
       </html>
-    </ViewTransitions>
+    </ReactLenis>
   );
 }

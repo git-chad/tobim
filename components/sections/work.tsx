@@ -18,6 +18,7 @@ const Work = () => {
 
   return (
     <section
+      id="work"
       className={`relative min-h-screen overflow-x-hidden text-small uppercase ${GeistMono.className}`}
     >
       <motion.div

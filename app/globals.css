@@ -3,8 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Zarathustra';
-  src: url('/fonts/zarathustra-v01.otf') format('opentype');
+  font-family: "Zarathustra";
+  src: url("/fonts/zarathustra-v01.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+.polaroid {
+  background: #faf9f6;
+  box-shadow: 2px 2px 6px #d5d4d1, -20px -20px 60px #ffffff;
 }

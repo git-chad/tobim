@@ -30,7 +30,7 @@ const About = () => {
             also cracked open a door. Stuck at my desk, I was itching for
             something new, something real. That&apos;s when I found it—a course in
             web development. It wasn&apos;t love at first sight, but something about
-            creating something out of text stuck. I thought, "Why not?" and let
+            creating something out of text stuck. I thought, &quot;Why not?&quot; and let
             myself fall into it.
           </p>
           <h3 className="font-semibold text-title col-span-7 mt-[42px]">
@@ -58,7 +58,7 @@ const About = () => {
                 in the flow. <br />
                 <br /> I love days with my dogs, nights with a nice cold beer,
                 stepping on the gas (La Perla Negra), and the occasional scare
-                from a horror movie when I&apos;m feeling brave (pretty much always).{" "}
+                from a horror movie when I&apos;m feeling brave (pretty much always).
                 <br />
                 <br /> I&apos;ve got a solid crew: family, friends, and my
                 girlfriend. They&apos;re the real reason I kept chasing a meaningful

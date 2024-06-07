@@ -6,7 +6,7 @@ export const slideOut = {
   exit: {
     y: "-100svh",
     transition: {
-      duration: 0.6,
+      duration: 0.7,
       ease: [0.77,0,0.18,1],
     },
   },

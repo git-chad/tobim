@@ -6,7 +6,7 @@ import { GeistMono } from "geist/font/mono";
 import Container from "../ui/container";
 
 const useCalcObjectPosition = (scaledX: any) => {
-  const startX = -2820 * 2;
+  const startX = -6860 * 2;
   const endX = 0;
   const startPosition = "0%";
   const endPosition = "100%";
@@ -27,7 +27,7 @@ const Work = () => {
         <motion.div
           drag="x"
           style={{ x }}
-          dragConstraints={{ right: 0, left: -2820 }}
+          dragConstraints={{ right: 0, left: -6860 }}
           dragTransition={{ power: 0.2, timeConstant: 300, restDelta: 0.005 }}
           className="transform flex gap-[10.472vmin]  cursor-grab"
         >

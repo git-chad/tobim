@@ -1,4 +1,8 @@
 import dogmaMockup from "@/public/images/dogma-mockup.jpg"
+import stBedesMockup from "@/public/images/st-bedes-mockup.jpg"
+import fidelity from "@/public/images/fidelity.png"
+import nikoMockup from "@/public/images/niko-mockup.jpg"
+import setAndForgetMockup from "@/public/images/set-forget-mockup.jpg"
 
 export const skills = [
     "Next.js",
@@ -32,21 +36,27 @@ export const projects = [
         image: dogmaMockup.src,
     },
     {
-        name: "dogma",
+        name: "st bede's college",
         year: "2023",
-        agency: "freelance",
-        image: dogmaMockup.src,
+        agency: "set & forget",
+        image: stBedesMockup.src,
     },
     {
-        name: "dogma",
+        name: "niko",
         year: "2023",
-        agency: "freelance",
-        image: dogmaMockup.src,
+        agency: "set & forget",
+        image: nikoMockup.src,
     },
     {
-        name: "dogma",
+        name: "fidelity",
         year: "2023",
         agency: "freelance",
-        image: dogmaMockup.src,
+        image: fidelity.src,
     },
+    {
+        name: "set & forget",
+        year: "2023",
+        agency: "set & forget",
+        image: setAndForgetMockup.src,
+    }
 ]

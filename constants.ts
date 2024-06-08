@@ -36,7 +36,7 @@ export const projects = [
         image: dogmaMockup.src,
     },
     {
-        name: "st bede's college",
+        name: "st bede's uk",
         year: "2023",
         agency: "set & forget",
         image: stBedesMockup.src,

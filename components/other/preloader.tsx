@@ -32,7 +32,7 @@ const Preloader = () => {
     >
       {dimension.height > 0 && (
         <>
-          <div className="overflow-hidden relative flex items-center justify-center w-[600px] font-zarathustra text-heading">
+          <div className="overflow-hidden relative flex items-center justify-center ml-[82px] font-zarathustra text-heading">
             <motion.p
               variants={tobiA}
               initial="initial"

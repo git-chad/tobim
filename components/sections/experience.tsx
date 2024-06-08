@@ -3,14 +3,13 @@ import Container from "../ui/container";
 import { skills } from "@/constants";
 import notebookExp from "@/public/images/notebook-02.png";
 import Image from "next/image";
+import SubHeading from "../ui/subheading";
 
 const Experience = () => {
   return (
     <section id="experience" className="min-h-svh flex flex-col justify-around">
       <Container className="relative min-h-full grid grid-cols-12 gap-4">
-        <h2 className="uppercase text-subheading font-semibold col-span-12 tracking-tighter">
-          experience
-        </h2>
+        <SubHeading text="experience" className="uppercase text-subheading font-semibold col-span-12 tracking-tighter"/>
         <p className="tracking-tighter col-span-4">
           I started in International Relations, seeking impact but found my true
           calling in coding and web design. A diverse skill set, from sales to

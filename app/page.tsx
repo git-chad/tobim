@@ -1,6 +1,7 @@
 "use client";
 import Preloader from "@/components/other/preloader";
 import About from "@/components/sections/about";
+import AllProjects from "@/components/sections/all-projects";
 import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
 import Work from "@/components/sections/work";
@@ -17,12 +18,13 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={`bg-priwhite min-h-svh text-secblack`}>
+    <main className={`bg-priwhite dark:bg-priblack min-h-svh text-secblack dark:text-secwhite transition-colors`}>
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Hero />
       <Work />
+      <AllProjects />
       <Experience />
       <About />
     </main>

@@ -7,7 +7,7 @@ import { ReactLenis } from "@/lib/lenis";
 
 export const metadata: Metadata = {
   title: "tobi moccagatta",
-  description: "Your not so typical fullstack developer",
+  description: "Fullstack developer",
 };
 
 export default function RootLayout({

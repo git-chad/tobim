@@ -85,8 +85,8 @@ const About = () => {
                 staring at a screen.
               </p>
             </div>
-            <div className="absolute -left-8 top-[26px] mix-blend-multiply">
-              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-priwhite via-transparent to-transparent" />
+            <div className="absolute -left-8 top-[26px] mix-blend-multiply contrast-200">
+              <div className="absolute top-0 left-0 w-full h-full" />
               <Image
                 src={notebook}
                 alt="Dear diary. My dream is to one day work at basement, for real"
@@ -100,7 +100,7 @@ const About = () => {
             variants={imgCover}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            className="bg-priwhite absolute top-0 left-0 w-full h-full"
+            className="bg-priwhite dark:bg-priblack absolute top-0 left-0 w-full h-full"
           />
           <Image alt="toti's selfie" src={toti} />
         </div>

@@ -74,8 +74,8 @@ const Experience = () => {
             ))}
           </ul>
         </div>
-        <div className="absolute w-[43%] -bottom-0 left-0">
-          <div className="absolute bg-gradient-to-t from-priwhite via-transparent to-transparent w-full h-full z-20" />
+        <div className="absolute w-[43%] -bottom-0 left-0 mix-blend-multiply">
+          <div className="absolute w-full h-full z-20" />
           <Image alt="I have like 10 notebooks" src={notebookExp} />
         </div>
       </Container>

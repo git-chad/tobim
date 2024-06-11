@@ -35,7 +35,7 @@ const Hero = () => {
         <Image
           alt="where did that cable come from?"
           src={macCable}
-          className="absolute -right-1 top-0 mix-blend-multiply opacity-80 pointer-events-none"
+          className="absolute -right-1 top-0 mix-blend-multiply dark:hidden opacity-80 pointer-events-none"
         />
       </Container>
       <HeroInfo />

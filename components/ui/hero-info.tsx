@@ -6,8 +6,8 @@ const HeroInfo = () => {
   return (
     <div className={`col-span-12 uppercase text-small ${GeistMono.className}`}>
       <Container className="grid grid-cols-12">
-        <p className="col-span-2">
-          Tobias moccagatta Fullstack developer <br/> IN LOVE WITH VERCEL
+      <p className="col-span-2">
+          Tobias moccagatta Fullstack developer <br/> working on <span className="bg-secblack">fidelity</span>
         </p>
         <p className="col-span-2 col-start-4">
           Web development <br /> Web design Interactive design

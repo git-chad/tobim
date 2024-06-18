@@ -14,7 +14,7 @@ export const item = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: i * 0.1 + 2,
+      delay: i * 0.1 + 2.05,
       duration: 0.8,
       ease: [0.65, 0.05, 0.36, 1],
     },

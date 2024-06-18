@@ -18,7 +18,7 @@ const HeroInfo = () => {
         </div>
         <p className="col-span-3 col-start-10 text-end">
           Freelance 2021-Present <br /> Set & Forget 2023-Present <br />{" "}
-          Dermasthetic 2018-2023
+          Dermasthetic 2018-2021
         </p>
       </Container>
     </div>

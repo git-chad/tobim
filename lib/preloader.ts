@@ -6,7 +6,7 @@ export const slideOut = {
   exit: {
     y: "-100svh",
     transition: {
-      duration: 0.7,
+      duration: 1,
       ease: [0.77,0,0.18,1],
     },
   },
@@ -19,14 +19,14 @@ export const tobiA = {
   animate: {
     y: "0%",
     transition: {
-      duration: 0.3,
+      duration: 0.35,
       ease: [0.77,0,0.18,1],
     },
   },
   exit: {
     y: "-100%",
     transition: {
-      duration: 0.3,
+      duration: 0.35,
       ease: [0.77,0,0.18,1],
     },
   },
@@ -41,7 +41,7 @@ export const mA = {
     y: ["100%", "0%", "0%"],
     x: ["-76%", "-76%", "0%"],
     transition: {
-      duration: 0.6,
+      duration: 0.65,
       ease: [0.77,0,0.18,1],
       times: [0, 0.5, 1],
     },
@@ -49,7 +49,7 @@ export const mA = {
   exit: {
     y: "-100%",
     transition: {
-      duration: 0.3,
+      duration: 0.35,
       ease: [0.77,0,0.18,1],
     },
   },

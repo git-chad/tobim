@@ -36,7 +36,7 @@ const Navbar = () => {
           <a href="#work">work</a>
           <a href="#experience">experience</a>
           <a href="#about">about</a>
-          <button onClick={toggleDarkMode} className="uppercase">{darkMode ? "too dark" : "too light"}</button>
+          <button onClick={toggleDarkMode} className="uppercase">{darkMode ? "too dark" : "too bright"}</button>
           <Link className="font-semibold" href="/contact">contact</Link>
         </nav>
       </Container>

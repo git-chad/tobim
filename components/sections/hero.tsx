@@ -17,7 +17,7 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
         >
-          {["Your not so", "typical fullstack", "developer."].map(
+          {["Conceive it,", "create it", ""].map(
             (text, index) => (
               <div key={index} className="overflow-hidden">
                 <motion.p custom={index} variants={item}>
@@ -27,7 +27,7 @@ const Hero = () => {
             )
           )}
         </motion.div>
-        <motion.p initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 1.3, delay: 2.6}}} className="col-start-1 col-span-5 text-title mt-[42px] tracking-tighter">
+        <motion.p initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 1.3, delay: 2.8}}} className="col-start-1 col-span-5 text-title mt-[42px] tracking-tighter">
           Focused on design and functionality, creating impactful web
           experiences. Currently at Set & Forget, and available for freelance
           work.
